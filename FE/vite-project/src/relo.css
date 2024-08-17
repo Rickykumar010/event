@@ -1,0 +1,30 @@
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(143, 42, 42);
+    align-items: center;
+    height: 110px;
+    font-size: 1.6rem;
+
+}
+.registerss{
+    border: 2px solid ;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    margin: auto;
+    width: 400px;
+
+}
+input{
+    padding: 7px;
+
+}
+body{
+    background-color:rgb(161, 20, 20);
+}
+Link{
+    color: white;
+}

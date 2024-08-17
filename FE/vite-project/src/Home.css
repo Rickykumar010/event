@@ -1,0 +1,79 @@
+
+
+.inputHead{
+    background-color: rgb(143, 42, 42);;
+    text-align: center;
+}
+.input{
+    margin-top: 10px;
+    width: 440px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+
+.thirds img{
+    width: 100%;
+    height: 800px;
+}
+
+
+.artist-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 1.4rem;
+    
+}
+.artist-card {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border: 2px solid white;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #1e1e1e; /* Dark background for better contrast */
+    color: white;
+  }
+  
+  .artist-card:hover {
+    transform: scale(1.05);
+    box-shadow: rgba(50, 50, 93, 0.35) 0px 20px 30px -5px, rgba(0, 0, 0, 0.4) 0px 12px 20px -8px;
+  }
+  
+  .artist-card img.artist-img {
+    width: 100%;
+    height: 400px;
+    display: block;
+    border-bottom: 2px solid white;
+  }
+  
+  .artist-card h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+    text-align: center;
+  }
+  
+  .artist-card p {
+    margin: 0;
+    font-size: 1em;
+    text-align: center;
+  }
+  
+
+
+.paginateBtn button{
+    padding: 10px;
+}
+
+.paginateBtn{
+   
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+ 
+}
